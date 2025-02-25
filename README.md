@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Evento - Next.js Application
 
-## Getting Started
+## 🚀 Overview
+Evento is a modern web application built with **Next.js**, **Prisma**, **Framer Motion**, and **Tailwind CSS**. It provides a smooth and interactive user experience with optimized performance.
 
-First, run the development server:
+## 📌 Features
+- ⚡ **Next.js Framework** - Fast, server-rendered React application.
+- 🎨 **Tailwind CSS** - Highly customizable and responsive UI.
+- 📦 **Prisma ORM** - Efficient database interaction.
+- 🎭 **Framer Motion** - Smooth animations and transitions.
+- ✅ **Zod** - Schema validation for API inputs.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🛠 Tech Stack
+- **Frontend:** Next.js, React, Tailwind CSS
+- **Backend:** Prisma, Zod
+- **Tools & Libraries:** ESLint, PostCSS, Radix UI Icons
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📥 Installation & Setup
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/samundra-9/evento.git
+   cd evento
+   ```
+2. **Install Dependencies:**
+   ```bash
+   npm install
+   ```
+3. **Setup Database:** (If using Prisma)
+   ```bash
+   npx prisma migrate dev
+   ```
+4. **Run the Development Server:**
+   ```bash
+   npm run dev
+   ```
+   Open [http://localhost:3000](http://localhost:3000) to view in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📜 Scripts
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm start` - Start production server
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 🤝 Contributing
+Contributions are welcome! Feel free to open issues or submit pull requests.
 
-## Learn More
+## 📄 License
+MIT License - Free to use and modify.
 
-To learn more about Next.js, take a look at the following resources:
+---
+**Developed by Samundra-9** 🚀
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
